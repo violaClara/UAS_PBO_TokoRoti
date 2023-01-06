@@ -8,7 +8,7 @@ import interfaces.Filling;
 
 /**
  *
- * @author DELL
+ * @author HP
  */
 public class RotiTawarVarian2 extends kelas.RotiTawar implements Filling{
 
