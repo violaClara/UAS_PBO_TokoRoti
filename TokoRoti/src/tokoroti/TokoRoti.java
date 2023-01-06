@@ -7,12 +7,14 @@ package tokoroti;
 import kelas.RotiManis;
 import kelas.RotiTawar;
 import varian.RotiManisVarian1;
+import varian.RotiManisVarian2;
+import varian.RotiManisVarian3;
 import varian.RotiTawarVarian1;
 import varian.RotiTawarVarian2;
-
+import varian.RotiPizzaVarian;
 /**
  *
- * @author DELL
+ * @author HP
  */
 public class TokoRoti {
 
@@ -35,9 +37,20 @@ public class TokoRoti {
         manis1.jumlahPesanan=50;
         manis1.tampilkan();
       
-                
+       System.out.println("----------------Orderan4-----------------");
+        RotiManisVarian2 manis2=new RotiManisVarian2();
+        manis2.jumlahPesanan=100;
+        manis2.tampilkan();         
         
-       
+       System.out.println("----------------Orderan5-----------------");
+        RotiManisVarian3 manis3=new RotiManisVarian3();
+        manis3.jumlahPesanan=70;
+        manis3.tampilkan(); 
+        
+       System.out.println("----------------Orderan6-----------------");
+        RotiPizzaVarian pizza=new RotiPizzaVarian();
+        pizza.jumlahPesanan=10;
+        pizza.tampilkan(); 
     }
     
 }
