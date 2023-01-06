@@ -3,14 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kelas;
+package tokoroti;
 
 /**
  *
- * @author MuhAgungN173
+ * @author acer
  */
 public class RotiPizza extends abstraksi.Adonan{
 
+
+    
 
     @Override
     public void hitungBeratBahan() {
