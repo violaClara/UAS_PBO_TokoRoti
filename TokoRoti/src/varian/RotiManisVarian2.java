@@ -19,6 +19,9 @@ public class RotiManisVarian2 extends kelas.RotiManis implements Filling, Toppin
     int beratVanilla=5;
     double beratVanillaPSN;
     
+    int beratCoklatTopping;
+    double beratCoklatToppingPSN;
+    
 
     @Override
     public void hitungBeratFilling() {
