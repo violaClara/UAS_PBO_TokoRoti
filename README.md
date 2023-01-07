@@ -1,10 +1,10 @@
 # UAS PBO Perhitungan Toko Roti
 
-Berisi perhitungan untuk menentukan jumlah berat dan harga jual roti.
-Dibuat oleh:
-K3521009 - Anna Sanya Khazanah
-K3521027 - Ferdhian Surya Rajasa
-K3521049 - Muhammad Agung Nugroho
+Berisi perhitungan untuk menentukan jumlah berat dan harga jual roti.<br>
+Dibuat oleh: <br>
+K3521009 - Anna Sanya Khazanah <br>
+K3521027 - Ferdhian Surya Rajasa <br>
+K3521049 - Muhammad Agung Nugroho <br>
 K3521067 - Viola Clara Citra Pramesti
 <br>
 <h1>Package<h1>
