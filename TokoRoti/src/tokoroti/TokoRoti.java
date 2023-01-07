@@ -6,12 +6,13 @@ package tokoroti;
 
 import kelas.RotiManis;
 import kelas.RotiTawar;
+import kelas.RotiPizza;
 import varian.RotiManisVarian1;
 import varian.RotiManisVarian2;
 import varian.RotiManisVarian3;
 import varian.RotiTawarVarian1;
 import varian.RotiTawarVarian2;
-import varian.RotiPizzaVarian;
+
 /**
  *
  * @author HP
@@ -48,7 +49,7 @@ public class TokoRoti {
         manis3.tampilkan(); 
         
        System.out.println("----------------Orderan6-----------------");
-        RotiPizzaVarian pizza=new RotiPizzaVarian();
+        RotiPizza pizza=new RotiPizza();
         pizza.jumlahPesanan=10;
         pizza.tampilkan(); 
     }
