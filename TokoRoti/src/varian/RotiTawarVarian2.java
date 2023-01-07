@@ -1,5 +1,5 @@
 /*
-* Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package varian;
@@ -8,7 +8,7 @@ import interfaces.Filling;
 
 /**
  *
- * @author DELL
+ * @author HP
  */
 public class RotiTawarVarian2 extends kelas.RotiTawar implements Filling{
 
@@ -26,6 +26,7 @@ public class RotiTawarVarian2 extends kelas.RotiTawar implements Filling{
 
     @Override
     public double hitungHargaFilling() {
+       
         double hargaKeju=(31000/250)*beratKejuPSN;    
         return hargaKeju;
     }

@@ -12,7 +12,6 @@ import interfaces.Topping;
  * @author DELL
  */
 public class RotiManisVarian1 extends kelas.RotiManis implements Filling, Topping{
-    // 
     int beratKeju=5;
     double beratKejuPSN;
     

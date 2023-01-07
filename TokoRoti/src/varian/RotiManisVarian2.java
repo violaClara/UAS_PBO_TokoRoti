@@ -13,12 +13,14 @@ import interfaces.Topping;
  * @author MuhAgungN173
  */
 public class RotiManisVarian2 extends kelas.RotiManis implements Filling, Topping{
-    // Filling
     int beratRedBean=10;
     double beratRedBeanPSN;
-    // Topping
+
     int beratVanilla=5;
     double beratVanillaPSN;
+    
+    int beratCoklatTopping;
+    double beratCoklatToppingPSN;
     
 
     @Override
@@ -30,26 +32,26 @@ public class RotiManisVarian2 extends kelas.RotiManis implements Filling, Toppin
 
     @Override
     public double hitungHargaFilling() {
-        double hargaRedBean=(25000/500)*beratRedBeanPSN;  
+        double hargaRedBean=(31000/250)*beratRedBeanPSN;  
         double hargaFilling=hargaRedBean;
         return hargaFilling;
     }
 
     @Override
     public void hitungBeratTopping() {
-        this.beratVanillaPSN=this.beratVanilla*jumlahPesanan;
+        this.beratCoklatToppingPSN=this.beratCoklatTopping*jumlahPesanan;
         
-        System.out.println("Berat Topping Vanilla: "+beratVanillaPSN+" gr");
+        System.out.println("Berat Topping Coklat: "+beratCoklatToppingPSN+" gr");
     }
 
     @Override
     public double hitungHargaTopping() {
-        double hargaVanilla=(30000/500)*beratVanillaPSN;    
-        return hargaVanilla;
+        double hargaCoklatTopping=(29000/500)*beratCoklatToppingPSN;    
+        return hargaCoklatTopping;
     }
     
      public void tampilkan(){
-        System.out.println("Roti Manis Varian 2");
+        System.out.println("Roti Manis Varian 1");
         System.out.println("Jumlah: "+jumlahPesanan+" pcs \n");
         hitungBeratBahan();
         hitungBeratFilling();
