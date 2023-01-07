@@ -15,4 +15,4 @@ K3521067 - Viola Clara Citra Pramesti
   <h3>tokoroti</h3>berisi file main class <b>TokoRoti.java</b> yang digunakan untuk melakukan instansiasi objek dari file pada package varian.
   
  <h1>Diagram</h1>
-  ![diagram](DiagramTokoRotiJava.jpg)
+  ![diagram]([DiagramTokoRotiJava.jpg](https://github.com/violaClara/UAS_PBO_TokoRoti/blob/e144da66cdf8f4d035c1c738d7f3bbf8f344df58/DiagramTokoRotiJava.jpg))
