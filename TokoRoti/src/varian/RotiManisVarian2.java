@@ -51,7 +51,7 @@ public class RotiManisVarian2 extends kelas.RotiManis implements Filling, Toppin
     }
     
      public void tampilkan(){
-        System.out.println("Roti Manis Varian 1");
+        System.out.println("Roti Manis Varian 2");
         System.out.println("Jumlah: "+jumlahPesanan+" pcs \n");
         hitungBeratBahan();
         hitungBeratFilling();
